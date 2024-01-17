@@ -1,0 +1,10 @@
+	component seven_seg_counter_sys is
+		port (
+			clk_clk            : in  std_logic                    := 'X'; -- clk
+			pio_digit_1_export : out std_logic_vector(3 downto 0);        -- export
+			pio_digit_2_export : out std_logic_vector(3 downto 0);        -- export
+			pio_digit_3_export : out std_logic_vector(3 downto 0);        -- export
+			reset_reset_n      : in  std_logic                    := 'X'  -- reset_n
+		);
+	end component seven_seg_counter_sys;
+
