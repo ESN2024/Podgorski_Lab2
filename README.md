@@ -17,6 +17,9 @@ Le système est composé de :
 
 # Configuration matérielle :
 
+![image](https://github.com/ESN2024/Podgorski_Lab2/assets/145102054/f6dffa55-78e1-4e6d-afa8-ac714bb2b9c0)
+
+
 Afin de configurer le FPGA, nous avons créé le fichier Qsys ci-dessus qui contient toute la description matérielle de notre système.
 Nous avons ensuite créé un fichier vhdl « BCD_2_7SEG » qui contient un décodeur, ainsi que notre fichier top-level « seven_seg_counter.vhd » qui instanciera 3 décodeurs (1 par afficheur 7 segments) et une fois les composants décrits dans le fichier Qsys.
 Après la mise en place des connections entre les signaux d’entrées-sorties et les broches physiques du FPGA dans le pin planner, et une compilation sans erreur, nous pouvons maintenant flasher le bitstream sur la carte.
@@ -26,6 +29,10 @@ Le FPGA est maintenant configuré comme on le souhaite, il ne reste plus qu’à
 
 Nous allons maintenant créer notre fichier main.c
 Toutes les secondes, le timer déclenchera une routine d’interruption dans laquelle la valeur de comptage sera incrémentée et affichée sur les afficheurs 7 segments.
+
+# Initialisation du contenu de la RAM :
+
+En suivant la procédure d'initialisation du contenu de la RAM dans le cours d'ESN10, le programme main.c se lance automatiquement sur la carte lorsque l'on flash le bitstream sur cette dernière.
 
 # Vidéo :
 
