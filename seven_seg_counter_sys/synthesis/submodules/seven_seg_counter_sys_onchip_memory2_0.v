@@ -36,7 +36,7 @@ module seven_seg_counter_sys_onchip_memory2_0 (
                                               )
 ;
 
-  parameter INIT_FILE = "C:/intelFPGA/18.1/Quartus_FPGA_DE10Lite-TP/Software/App/mem_init/Led_chaser_onchip_memory2_0.hex";
+  parameter INIT_FILE = "C:/Users/titou/Documents/Polytech 5A/De10Lite/Podgorski_Lab2/Software/App/mem_init/Led_chaser_onchip_memory2_0.hex";
 
 
   output  [ 31: 0] readdata;

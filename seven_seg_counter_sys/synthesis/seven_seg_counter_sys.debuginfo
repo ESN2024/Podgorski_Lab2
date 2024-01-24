@@ -4,8 +4,8 @@
  kind="system"
  version="18.1"
  fabric="QSYS">
- <!-- Format version 18.1 646 (Future versions may contain additional information.) -->
- <!-- 2024.01.17.10:53:46 -->
+ <!-- Format version 18.1 625 (Future versions may contain additional information.) -->
+ <!-- 2024.01.24.11:30:10 -->
  <!-- A collection of modules and connections -->
  <parameter name="clockCrossingAdapter">
   <type>com.altera.sopcmodel.ensemble.EClockAdapter</type>
@@ -57,7 +57,7 @@
  </parameter>
  <parameter name="generationId">
   <type>int</type>
-  <value>1705485209</value>
+  <value>1706092168</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>true</visible>
@@ -4623,7 +4623,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="initializationFileName">
    <type>java.lang.String</type>
-   <value>C:/intelFPGA/18.1/Quartus_FPGA_DE10Lite-TP/Software/App/mem_init/Led_chaser_onchip_memory2_0.hex</value>
+   <value>C:/Users/titou/Documents/Polytech 5A/De10Lite/Podgorski_Lab2/Software/App/mem_init/Led_chaser_onchip_memory2_0.hex</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -4834,7 +4834,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="derived_init_file_name">
    <type>java.lang.String</type>
-   <value>C:/intelFPGA/18.1/Quartus_FPGA_DE10Lite-TP/Software/App/mem_init/Led_chaser_onchip_memory2_0.hex</value>
+   <value>C:/Users/titou/Documents/Polytech 5A/De10Lite/Podgorski_Lab2/Software/App/mem_init/Led_chaser_onchip_memory2_0.hex</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -14594,6 +14594,6 @@ parameters are a RESULT of the module parameters. -->
   <displayName>Reset Connection</displayName>
   <version>18.1</version>
  </plugin>
- <reportVersion>18.1 646</reportVersion>
- <uniqueIdentifier>E454E8D19C8B0000018D16D71655</uniqueIdentifier>
+ <reportVersion>18.1 625</reportVersion>
+ <uniqueIdentifier>9E2F9D85CDF50000018D3B04A2C4</uniqueIdentifier>
 </EnsembleReport>
