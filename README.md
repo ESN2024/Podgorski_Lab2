@@ -1,3 +1,4 @@
+
 # Présentation :
 
 L'objectif de ce TP est de créer un compteur grâce à l’utilisation d’un timer. La valeur de comptage devra être affichée sur 3 afficheurs 7 segments. Le système devra donc pouvoir compter jusqu’à 999.
@@ -43,3 +44,7 @@ https://github.com/ESN2024/Podgorski_Lab2/assets/145102054/130d1ca7-253d-42b0-a9
 
 
 # Conclusion :
+
+En résumé, ce projet de création d'un compteur sur la carte de10lite a été une magnifique expérience. Un timer déclenche une routine d'interruption toutes les secondes qui incrémente la valeur de comptage affichée sur trois afficheurs 7 segments. Ce projet m'a permis de perfectionner mes connaissances des interruptions, des timers, et des afficheurs 7 segments.
+
+
