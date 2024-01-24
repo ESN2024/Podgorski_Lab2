@@ -4,7 +4,8 @@ L'objectif de ce TP est de créer un compteur grâce à l’utilisation d’un t
 
 # Architecture du système
 
-(image canva architecture)
+![image](https://github.com/ESN2024/Podgorski_Lab2/assets/145102054/85e9e694-52ae-4a0e-9089-682669b29a4f)
+
 
 Le système est composé de :
 •	Un processeur Nios II
